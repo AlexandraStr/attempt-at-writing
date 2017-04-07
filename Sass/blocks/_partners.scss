@@ -1,0 +1,58 @@
+/* partners   */
+/*--------------------------------------------------------------------------------------------------*/
+.partners{
+  div {
+    margin: 20px auto;
+  }
+
+  h1 {
+    margin: 20px auto;
+    color: $color3;
+    font: $fontSize2 $fontFamilyBold;
+    text-align: center;
+  }
+
+  figure {
+    margin: auto;
+    position: relative;
+    width: 215px;
+    text-align: center;
+  }
+
+  figcaption {
+    color: $color4;
+    font: $fontSize5 $fontFamilyBold;
+  }
+
+  img {
+    border-radius: 70px;
+  }
+
+  span {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    z-index: 100;
+    top: 90px;
+    right: 50px;
+    background-color: $color1;
+  }
+
+  .TVIc{
+    @include background ($urlIcon,0px,-126px);
+    // background: url("../../img/PartnerIcon_sprite.png") 0px -126px no-repeat;
+  }
+  .BottleIc{
+    @include background ($urlIcon,0px,-84px);
+    // background: url("../../img/PartnerIcon_sprite.png") 0px -84px no-repeat;
+  }
+  .CupIc{
+    @include background ($urlIcon,0px,-42px);
+    //background: url("../../img/PartnerIcon_sprite.png") 0px -42px no-repeat;
+  }
+  .PlaneIc {
+    @include background ($urlIcon,0px,0px);
+    // background: url("../../img/PartnerIcon_sprite.png") 0px 0px no-repeat;
+  }
+}
+

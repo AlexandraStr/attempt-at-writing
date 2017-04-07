@@ -1,0 +1,57 @@
+/*        Footer        */
+/*--------------------------------------------------------------------------------------------------*/
+.footer_container{
+  margin:auto;
+  border-top: solid 5px $color2;
+
+  h1 {
+    margin: 20px auto;
+    text-align: center;
+    letter-spacing: 1px;
+    color: $color2;
+    font : $fontSize7 $fontFamilyBold;
+  }
+
+  .nav_links {
+    margin: auto;
+    text-align: center;
+
+    h2 {
+      color: #282828;
+      font : $fontSize5 $fontFamilyBold;
+      font-size: 14px;
+    }
+
+    a {
+      padding: 10px;
+      color: $color5;
+      font: $fontSize5 $fontFamilyThin;
+    }
+  }
+
+  .partners{
+    margin: 10px auto;
+    text-align: center;
+
+    a {
+      color: #282828;
+      font: $fontSize5 $fontFamilyBold;
+    }
+  }
+  .disignedBy {
+    margin: 10px auto;
+    color: $color5;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    .footer_img {
+      display: block;
+      margin-top: 10px;
+      width: 100%;
+
+    }
+  }
+}

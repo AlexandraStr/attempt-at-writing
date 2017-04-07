@@ -1,0 +1,30 @@
+{
+  "name": "alexandra",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "grunt-contrib-concat": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^2.2.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "alexandra",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandraStr/attempt-at-writing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlexandraStr/attempt-at-writing/issues"
+  },
+  "homepage": "https://github.com/AlexandraStr/attempt-at-writing#readme",
+  "description": "Training-package"
+}

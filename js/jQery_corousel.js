@@ -1,12 +1,10 @@
 $(function () {
 
-
     var elementCount = 0;
     var widthElement = $('.slide_step li').outerWidth(true);
     var leftFunc=0;
     var centrFunc=0;
     var rightFunc=0;
-
 
     $('.arrow').click(function () {
         var parentBlock = $(this).parent().attr('id');
@@ -36,8 +34,6 @@ $(function () {
             default:
                 alert("Error");
         }
-
-
 
         function moveSlide ($currentPosition) {
 

@@ -21,17 +21,28 @@
     }
   }
 
-  //----------------- Ideas -----------------------
-  .grid {
-    @include column-count(1);
-    .grid-item img {
-      width: 300px;
-      height: 120px;
-    }
+  //----------------- Ideas -----------------------***************************
+  .grid-sizer,
+  .grid-item {
+    width: 90%;
   }
+
   // ------------------- Partners --------------------
   .partners div {
     @include column-count(1);
+  }
+
+  //-------------------Footer ---------------------
+  .footer_container {
+    .nav_links, h1, .partners, .disignedBy {
+      margin: 20px auto;
+      width: 100%;
+      clear: both;
+
+    }
+    .nav_links{
+      text-align: center;
+    }
   }
 
 };
@@ -51,21 +62,31 @@
     width: 90%;
     margin:20px auto;
     clear: both;
-     p {
+    p {
       width: 260px;
     }
   }
-  //----------------- Ideas -----------------------
-  .grid {
-    @include column-count(1);
-    .grid-item img {
-      width: 300px;
-      height: 120px;
-    }
+  //----------------- Ideas -----------------------*****************
+  .grid-sizer,
+  .grid-item {
+    width: 80%;
   }
+
+
   //-------------- Partners ------------------------
-   .partners div{
+  .partners div{
     @include column-count(2);
+  }
+  //----------------------Footer ---------------------
+  .footer_container {
+    .nav_links, h1, .partners, .disignedBy {
+      margin: 20px auto;
+      width: 100%;
+      clear: both;
+    }
+    .nav_links {
+      text-align: center;
+    }
   }
 };
 @include respond-to(notepad) {
@@ -87,16 +108,31 @@
       width: 200px;
     }
   }
-  //----------------- Ideas -----------------------
-  .grid {
-    @include column-count(3);
-    .grid-item {
-      height: 300px;
-    }
+  //----------------- Ideas -----------------------********************
+
+  .grid-sizer,
+  .grid-item {
+    width: 48%;
   }
+
+
   //------------------- Partners ----------------------
   .partners div{
     @include column-count(2);
+  }
+  //------------------------Footer --------------------
+  .footer_container {
+    h1, .partners, .disignedBy {
+      margin: auto;
+      width: 24%;
+      float: left;
+    }
+    .nav_links {
+      margin: auto 5%;
+      width: 80px;
+      float: left;
+      text-align: left;
+    }
   }
 
 };
@@ -120,16 +156,31 @@
       width: 200px;
     }
   }
-  //----------------- Ideas -----------------------
-  .grid {
-    @include column-count(3);
-    .grid-item {
-      height: 300px;
-    }
+  //----------------- Ideas -----------------------********************
+
+  .grid-sizer,
+  .grid-item {
+    width: 31%;
   }
+
   //------------------- Partners ----------------------
   .partners div{
     @include column-count(4);
+  }
+
+  //----------------------Footer--------------------------
+  .footer_container {
+    h1, .partners, .disignedBy {
+      margin: auto;
+      width: 24%;
+      float: left;
+    }
+    .nav_links {
+      margin: auto 5%;
+      width: 80px;
+      float: left;
+      text-align: left;
+    }
   }
 
 };
@@ -151,18 +202,31 @@
       width: 200px;
     }
   }
-  //----------------- Ideas -----------------------
+  //----------------- Ideas -----------------------**********************
   .idea {
     width: 1260px;
   }
-  .grid {
-    @include column-count(3);
-    .grid-item img {
-      height: 300px;
-    }
+  .grid-sizer,
+  .grid-item {
+    width: 31%;
   }
+
   //--------------------- Partners ----------------
   .partners div{
     @include column-count(4);
+  }
+  //-----------------------Footer ----------------------
+  .footer_container {
+    h1, .partners, .disignedBy {
+      margin: auto;
+      width: 24%;
+      float: left;
+    }
+    .nav_links {
+      margin: auto 5%;
+      width: 80px;
+      float: left;
+      text-align: left;
+    }
   }
 }

@@ -3,17 +3,21 @@
 <head>
 <meta charset="UTF-8">
   <title>Holiday dreams</title>
-  <link rel="stylesheet" href="css/style.css">
-   <script src="js/built/script.main.js" ></script>
-   <!-- <script src="js/jquery-3.1.1.min.js"></script>
-    <script src="js/maconry_load_img.js"></script>
-    <script src="js/jQery_corousel.js"></script> -->
 
-    <!--[if lt IE 9]> -->
- <!--   <script src="js/Exceptions/masonry.pkgd.min.js"></script>
-    <script src="js/Exceptions/masonry_init.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    <script src="js/built/script.main.js" ></script>
+    <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+
+
+
+    <!--[if lt IE 9]
     <script src="js/Exceptions/html5shiv.js"></script>
-  <!--[endif]-->
+    [endif]-->
 
 </head>
 <body>
@@ -164,11 +168,11 @@
 
      <section class="ideas clearfix">
          <h1>Discover holiday activity ideas</h1>
-       <div class="grid-conteiner">
-         <div class="grid">
-
-         </div>
-       </div>
+    <!--   <div class="grid-conteiner " > -->
+           <div class="grid ">
+           <div class="grid-sizer"></div>
+          </div>
+    <!--   </div> -->
 
       </section>
 
@@ -181,7 +185,7 @@
          </form>
 
      </div>
-     <footer class="footer_container">
+     <footer class="footer_container clearfix">
            <h1> URLAUBSGLÜCK </h1>
            <nav class="nav_links">
                <h2> Company </h2><br>
@@ -190,9 +194,9 @@
                <a href="#"> Press </a>
                <a href="#"> Blog </a>
            </nav>
-           <h2 class="partners">
+           <div class="partners">
                <a href="#"> Partners </a>
-           </h2>
+           </div>
            <div class="disignedBy">
                  <h3>Disigned By</h3>
                  <a href="#" class="footer_img"><img src="img/footer.png"></a>

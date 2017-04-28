@@ -1,11 +1,12 @@
 /*        Footer        */
 /*--------------------------------------------------------------------------------------------------*/
 .footer_container{
-  margin:auto;
+  margin:20px auto;
+  padding: 30px;
+  position: relative;
   border-top: solid 5px $color2;
 
   h1 {
-    margin: 20px auto;
     text-align: center;
     letter-spacing: 1px;
     color: $color2;
@@ -13,8 +14,6 @@
   }
 
   .nav_links {
-    margin: auto;
-    text-align: center;
 
     h2 {
       color: #282828;
@@ -25,12 +24,11 @@
     a {
       padding: 10px;
       color: $color5;
-      font: $fontSize5 $fontFamilyThin;
+      font: $fontSize5 $fontFamilyLight;
     }
   }
 
   .partners{
-    margin: 10px auto;
     text-align: center;
 
     a {
@@ -39,9 +37,8 @@
     }
   }
   .disignedBy {
-    margin: 10px auto;
     color: $color5;
-    font-family: 'Montserrat-Bold', sans-serif;
+    font-family: $fontFamilyBold;
     font-size: 10px;
     text-align: center;
     letter-spacing: 1px;

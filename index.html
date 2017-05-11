@@ -10,7 +10,8 @@
             crossorigin="anonymous"></script>
     <script src="js/built/script.main.js" ></script>
     <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
-    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <!--<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script> -->
+
 
 
 
@@ -170,7 +171,7 @@
          <h1>Discover holiday activity ideas</h1>
     <!--   <div class="grid-conteiner " > -->
            <div class="grid ">
-           <div class="grid-sizer"></div>
+           <div class="grid-gutter"></div>
           </div>
     <!--   </div> -->
 
@@ -178,10 +179,10 @@
 
      <div class="search_partners">
         <h1> Discover holiday activity ideas </h1>
-         <form action="index.html">
+         <form id="searchPictureForm" action="javascript:void(0)" method="GET">
              <p>Hi! What are your holiday interests?</p>
-             <input type="text"  placeholder="Enter your interests" id="seachInput">
-             <input class="form_button" type="button" value="Search partners">
+             <input type="text"  placeholder="Enter your interests" name="search" id="seachInput">
+             <input type="submit" class="form_button" value="Search partners">
          </form>
 
      </div>

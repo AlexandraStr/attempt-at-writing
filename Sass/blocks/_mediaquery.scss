@@ -19,6 +19,10 @@
     p {
       width: 260px;
     }
+    li {
+      width: 100%;
+      display: block;
+    }
   }
 
   //----------------- Ideas -----------------------***************************
@@ -62,6 +66,10 @@
     p {
       width: 260px;
     }
+    li {
+      width: 100%;
+      display: block;
+    }
   }
   //----------------- Ideas -----------------------*****************
 
@@ -100,6 +108,10 @@
     float: left;
     p {
       width: 200px;
+    }
+    li {
+      width: 33%;
+      display: inline-block;
     }
   }
   //----------------- Ideas -----------------------********************
@@ -142,8 +154,15 @@
     width: 30%;
     margin-left: 20px;
     float: left;
+    ul {
+      width:848px;
+    }
     p {
       width: 200px;
+    }
+    li {
+      width: 33%;
+      display: inline-block;
     }
   }
   //----------------- Ideas -----------------------********************
@@ -185,10 +204,18 @@
     width: 30%;
     margin-left: 20px;
     float: left;
+    ul {
+      width:848px;
+    }
     p {
       width: 200px;
     }
+    li {
+      width: 33%;
+      display: inline-block;
+    }
   }
+
   //----------------- Ideas -----------------------**********************
 
 

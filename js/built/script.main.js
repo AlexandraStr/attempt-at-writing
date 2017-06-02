@@ -6,6 +6,13 @@ $(function () {
     var centrFunc=0;
     var rightFunc=0;
 
+    $(window).resize(function () {
+      var ulWidth=$(".carousel_wrapper").width();
+      $(".slide_step").css({
+          width:ulWidth,
+      })
+    })
+
     $('.arrow').click(function () {
         var parentBlock = $(this).parent().attr('id');
         var pointer = "#" + parentBlock  + " " + ".slide_step";
